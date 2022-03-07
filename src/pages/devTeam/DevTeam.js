@@ -35,8 +35,7 @@ const developersTeam = [
     },
   },
   {
-    image:
-      'https://media-exp1.licdn.com/dms/image/C4D03AQE6ejIKIqpudw/profile-displayphoto-shrink_200_200/0/1627778641687?e=1652313600&v=beta&t=9yUvnlDYKntSfO3Bq7xWjP2TBHRjYUDlxVi2GHvQxfs',
+    image: 'https://avatars.githubusercontent.com/u/60760830?v=4',
     name: 'Moisés Benites da silva',
     office: 'Studant Full-stack developer in the 5th edition of the starter program at Growdev',
     description:
