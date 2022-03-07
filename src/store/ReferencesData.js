@@ -29,12 +29,41 @@ export default [
   },
 
   {
-    avatar: '"https://miro.medium.com/fit/c/176/176/2*ukZ6kckBOFvfL5Fc8q47qw.jpeg',
+    avatar: 'https://miro.medium.com/fit/c/176/176/2*ukZ6kckBOFvfL5Fc8q47qw.jpeg',
     name: 'Guilherme Oliveira',
     title: 'Conhecendo o usoRef do React',
     details:
       'A partir da versão 16.8 do React é possível usar os Hooks como uma nova maneira de escrever componentes e reutilizar o código entre eles.',
     image: 'https://miro.medium.com/max/1400/1*MNMA754TTpZTHLky5uRlLA.jpeg',
     site: 'https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66',
+  },
+  {
+    avatar:
+      'https://yt3.ggpht.com/ytc/AKedOLQpvSjzSCSo8ZKCjBZS7TRX7omb_kyQirh2zgEY=s88-c-k-c0x00ffffff-no-rj',
+    name: 'Web Dev Simplified',
+    title: 'Learn useRef in 11 Minutes',
+    details:
+      'In this video I cover everything you need to know about the useRef hook. I go over all the main use cases for useRef as well as many common mistakes that developers make. ',
+    image:
+      'https://t.ctcdn.com.br/nZQIKNi7g8uh-LL3mnsPufnL2Sc=/400x400/smart/filters:format(webp)/i490028.jpeg',
+    site: 'https://www.youtube.com/watch?v=t2ypzz6gJm0',
+  },
+  {
+    avatar: 'https://blog.logrocket.com/wp-content/uploads/2020/03/sebastian-weber-150x150.jpeg',
+    name: 'Sebastian Weber',
+    title: 'useState vs. useRef: Similarities, differences, and use cases',
+    details:
+      'This article explains the React Hooks useState and useRef. You’ll learn their basic usage and get to know the different use cases for both Hooks.',
+    image: 'https://blog.logrocket.com/wp-content/uploads/2021/05/usestate-vs-useref.png',
+    site: 'https://blog.logrocket.com/usestate-vs-useref/',
+  },
+  {
+    avatar: 'https://felixgerschau.com/logos/logo.svg',
+    name: 'Felix Gerschau',
+    title: "How to use React's useRef() hook",
+    details:
+      'At first sight, it may not be clear what purpose the useRef hook fulfills. If you know how to use it, however, it can be a useful tool in certain situations.',
+    image: 'https://blog.logrocket.com/wp-content/uploads/2021/05/usestate-vs-useref.png',
+    site: 'https://felixgerschau.com/useref-react-hooks/',
   },
 ];
