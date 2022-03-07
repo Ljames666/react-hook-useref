@@ -45,7 +45,9 @@ function Home() {
                     ' 0px 5px 5px -3px rgb(67 185 170 / 20%), 0px 8px 10px 1px rgb(67 185 170 / 14%), 0px 3px 14px 2px rgb(67 185 170 / 12%)',
                 }}
               >
-                <Typography>O que fazer com o Hook userRef?</Typography>
+                <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
+                  O que fazer com o Hook userRef?
+                </Typography>
                 <Typography>
                   Aqui você vai sanar todas suas dúvidas, com o tutorial, sobre esse Hook ou pode
                   ler na documentação oficial do React!
