@@ -194,9 +194,9 @@ function Home() {
               <div>
                 <Typography variant="h6">
                   Bora usar o UseRef!
-                  <br /> Lê o Doc salva e roda, pra ver o esturo!!
+                  <br /> Lê o Doc, salva, roda e vamos ver o estouro!!
                 </Typography>
-                <blockquote cite="Bora usar o UseRef, lê o Doc salva e roda, pra ver o esturo!!">
+                <blockquote cite="Bora usar o UseRef, lê o Doc, salva, roda e vamos ver o estouro!!">
                   Marcelo Eltz
                 </blockquote>
               </div>
