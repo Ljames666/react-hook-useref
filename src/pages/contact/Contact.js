@@ -4,7 +4,10 @@ import FormContact from '../../components/form/Form';
 export default function ContactMe() {
   return (
     <ContactMain>
-      <FormContact />
+      <h1>Contact</h1>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <FormContact />
+      </div>
     </ContactMain>
   );
 }
