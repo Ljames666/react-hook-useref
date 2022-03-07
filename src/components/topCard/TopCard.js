@@ -19,7 +19,15 @@ export default function TopCard({ references }) {
     <>
       {references.map((reference) => {
         return (
-          <Card sx={{ margin: 1, maxWidth: 345, color: '#FBFBF2', backgroundColor: '#080D08' }}>
+          <Card
+            sx={{
+              margin: 1,
+              height: '450px',
+              width: '300px',
+              color: '#FBFBF2',
+              backgroundColor: '#080D08',
+            }}
+          >
             <CardHeader
               sx={{
                 '.css-83ijpv-MuiTypography-root': { color: '#8F938A' },
@@ -36,7 +44,7 @@ export default function TopCard({ references }) {
               <Typography>{reference.details}</Typography>
             </CardContent>
             <Divider />
-            <CardActions disableSpacing>
+            <CardActions sx={{ paddingBottom: '50px' }}>
               <IconButton aria-label="add to favorites">
                 <FavoriteIcon sx={{ color: '#FBFBF2', fontWeight: 'bold' }} />
               </IconButton>

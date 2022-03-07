@@ -11,7 +11,9 @@ export default function ThisReferences() {
         elevation={8}
         sx={{
           display: 'flex',
-          justifyContent: 'space-around',
+          justifyContent: 'center',
+          alignItems: 'center',
+          flexWrap: 'wrap',
           margin: 2,
           padding: 2,
           boxShadow:
