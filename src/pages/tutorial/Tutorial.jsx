@@ -374,7 +374,7 @@ export default function Tutorial() {
           Conclusões
         </Typography>
         <Typography sx={{ margin: '30px 0' }}>
-          O Hook<code> useRef</code> e aplicações e cuidados. O<code> useRef</code> retorna um
+          O Hook<code> useRef</code> em aplicações exige cuidados. O<code> useRef</code> retorna um
           objeto ref mutável que possui uma propriedade<code> .current</code> que pode assumir
           qualquer valor, podendo ser elementos DOM ou do ato. Vimos dois usos para esse ref: poder
           acessar elementos DOM ou React e manter uma variável mutável que persiste durante toda a
