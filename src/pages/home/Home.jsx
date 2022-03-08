@@ -26,9 +26,9 @@ function Home() {
 
               justifyContent: 'center',
               alignItems: 'center',
-
+              marginTop: '15px',
               width: '100%',
-              height: 200,
+              height: 300,
             }}
           >
             <div style={{ width: '35%', height: '90%' }}>
@@ -39,8 +39,8 @@ function Home() {
                   flexDirection: 'column',
                   justifyContent: 'space-around',
                   alignItems: 'center',
-                  padding: 1,
-
+                  padding: 2,
+                  textAlign: 'center',
                   boxShadow:
                     ' 0px 5px 5px -3px rgb(67 185 170 / 20%), 0px 8px 10px 1px rgb(67 185 170 / 14%), 0px 3px 14px 2px rgb(67 185 170 / 12%)',
                 }}
@@ -48,7 +48,7 @@ function Home() {
                 <Typography variant="h5" sx={{ fontWeight: 'bold' }}>
                   O que fazer com o Hook userRef?
                 </Typography>
-                <Typography>
+                <Typography sx={{ margin: '10px 0' }}>
                   Aqui você vai sanar todas suas dúvidas, com o tutorial, sobre esse Hook ou pode
                   ler na documentação oficial do React!
                 </Typography>
